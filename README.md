@@ -1,7 +1,7 @@
 # GoogLeNet Architecture
 GoogLeNet is a type of convolutional neural network based on the Inception architecture. It utilises Inception modules, which allow the network to choose between multiple convolutional filter sizes in each block. An Inception network stacks these modules on top of each other, with occasional max-pooling layers with stride 2 to halve the resolution of the grid.
 GoogLeNet (Inception v1) is a pioneering deep convolutional neural network architecture known for its efficiency and performance in image classification tasks. Here are its pros and cons:
-#### Pros:
+### Pros:
 #### Computational Efficiency: 
 Uses 1x1 convolutions to reduce the number of parameters and computational cost, making it more efficient than deeper networks like VGG.
 
