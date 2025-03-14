@@ -10,3 +10,5 @@ An Inception module is a key component of the Inception architecture in convolut
 
 ### Architecture : 
 In this architecture, we tried to implement all the goals in a modular way. In this architecture, we need to be able to move around the image and identify objects and points, given the kernel-size, padding, and stride.  The architecture was designed to keep computational efficiency in mind. The idea behind that the architecture can be run on individual devices even with low computational resources. The architecture also contains two auxiliary classifier layer connected to the output of Inception (4a) and Inception (4d) layers.
+
+![Inceptionv1_architecture](https://github.com/user-attachments/assets/e917a352-df28-47f4-9752-cf71ff1295a0)
