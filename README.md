@@ -1,5 +1,7 @@
 # GoogLeNet Architecture
 GoogLeNet is a type of convolutional neural network based on the Inception architecture. It utilises Inception modules, which allow the network to choose between multiple convolutional filter sizes in each block. An Inception network stacks these modules on top of each other, with occasional max-pooling layers with stride 2 to halve the resolution of the grid.
+The Inception Network was one of the major breakthroughs in the fields of Neural Networks, particularly for CNNs. So far there are three versions of Inception Networks, which are named Inception Version 1, 2, and 3. The first version entered the field in 2014, and as the name “GoogleNet” suggests, it was developed by a team at Google. This network was responsible for setting a new state-of-the-art for classification and detection in the ILSVRC. This first version of the Inception network is referred to as GoogleNet.
+
 
 
 ### Inception Module : 
