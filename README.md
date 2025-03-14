@@ -14,3 +14,8 @@ An Inception module is a key component of the Inception architecture in convolut
 In this architecture, we tried to implement all the goals in a modular way. In this architecture, we need to be able to move around the image and identify objects and points, given the kernel-size, padding, and stride.  The architecture was designed to keep computational efficiency in mind. The idea behind that the architecture can be run on individual devices even with low computational resources. The architecture also contains two auxiliary classifier layer connected to the output of Inception (4a) and Inception (4d) layers.
 
 ![Inceptionv1_architecture](https://github.com/user-attachments/assets/e917a352-df28-47f4-9752-cf71ff1295a0)
+
+
+
+### GoogleNet Training and Results
+GoogleNet is trained using distributed machine learning systems with a modest amount of model and data parallelism. The training used asynchronous stochastic gradient descent with a momentum of 0.9 and a fixed learning rate schedule decreasing the learning rate by 4% every 8 epochs. Below is an image of the results of the teams that performed for ILSVRC 2014. GoogleNet stood in first place with an error rate of 6.67%.
